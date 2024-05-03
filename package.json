@@ -1,0 +1,19 @@
+{
+  "name": "03-bases-node",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Es una simple tabla de multiplicar con archivo de texto",
+  "main": "app.js",
+  "author": "Luis Angel",
+  "license": "MIT",
+  "scripts": {
+    "base3": "node app --base=3"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
