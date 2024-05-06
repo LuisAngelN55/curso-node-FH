@@ -12,6 +12,7 @@
   "description": "",
   "dependencies": {
     "colors": "^1.4.0",
-    "inquirer": "^9.2.20"
+    "inquirer": "^9.2.20",
+    "uuid": "^9.0.1"
   }
 }
