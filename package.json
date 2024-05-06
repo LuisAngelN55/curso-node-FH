@@ -7,10 +7,11 @@
   "author": "Luis Angel",
   "license": "MIT",
   "scripts": {
-    "base3": "node app --base=3"
+    "start": "node index.js"
   },
   "dependencies": {
     "colors": "^1.4.0",
+    "inquirer": "^9.2.20",
     "yargs": "^17.7.2"
   },
   "devDependencies": {
