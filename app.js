@@ -1,5 +1,1 @@
-import "colors";
-
-console.clear();
-
-
+console.log('Hola Mundo')

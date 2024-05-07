@@ -1,5 +1,5 @@
 {
-  "name": "03-bases-node",
+  "name": "06-webserver",
   "version": "0.0.1",
   "type": "module",
   "description": "Es una simple tabla de multiplicar con archivo de texto",
@@ -7,7 +7,7 @@
   "author": "Luis Angel",
   "license": "MIT",
   "scripts": {
-    "base3": "node app --base=3"
+    "dev": "nodemon --watch app.js"
   },
   "dependencies": {
     "colors": "^1.4.0",
