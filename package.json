@@ -2,15 +2,19 @@
   "name": "06-webserver",
   "version": "0.0.1",
   "type": "module",
-  "description": "Es una simple tabla de multiplicar con archivo de texto",
+  "description": "Web server",
   "main": "app.js",
   "author": "Luis Angel",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon --watch app.js"
+    "dev": "nodemon --watch app.js",
+    "start": "node app.js"
   },
   "dependencies": {
     "colors": "^1.4.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "hbs": "^4.2.0",
     "yargs": "^17.7.2"
   },
   "devDependencies": {
